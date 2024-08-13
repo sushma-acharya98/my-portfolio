@@ -2,10 +2,11 @@
 
 import NavBar from '@/Components/navBar';
 // import { Container, Typography, Box } from '@mui/material'; // MUI components for styling
-import About from '@/Components/about';
+import About from '@/Components/about/about';
+import '@/app/globals.css'
 const App: React.FC = () => {
   return (
-    <div>
+    <div className='site-wrapper'>
       <NavBar />
       <About />
     </div>
